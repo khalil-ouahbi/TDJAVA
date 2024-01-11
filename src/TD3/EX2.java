@@ -55,6 +55,18 @@ class PointNom extends Point1{
     }
 
 }
+public class Main {
+    public static void main(String[] args) {
+        Point1 p=new Point1(4,7);
+        p.afficher();
+        PointNom pm=new PointNom(4 , 5, "a");
+        pm.afficher();
+        pm.setNom("b");
+        pm.afficher();
+        pm.setPointNom(3,6,"c");
+        pm.afficher();
+    }
+}
 
 
 

@@ -3,16 +3,16 @@ package TD2;
 public class EX1 {
 
         public static void main(String[] args) {
-            Point pnt=new Point("a",5);
+            PointEX1 pnt=new PointEX1("a",5);
             pnt.afficher();
             pnt.translate(3);
             pnt.afficher();
         }}
 
-public class Point {
+ class PointEX1 {
         private  String nom;
         private double ab;
-        public Point(String n,int a){
+        public PointEX1(String n,int a){
             this.nom=n;
             this.ab=a;
 

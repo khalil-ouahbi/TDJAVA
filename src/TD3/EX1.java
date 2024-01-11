@@ -27,6 +27,15 @@ class Pointa {
     }
 
 }
+public class EX1 {
+    public static void main(String[] args) {
+        Pointa p=new Pointa(4,7);
+        p.afficher();
+        PointAa pa=new PointAa(3,8);
+        System.out.println(pa.getX());
+        p.afficher();
+        pa.afficher();
 
+    }}
 
 

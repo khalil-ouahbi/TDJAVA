@@ -3,10 +3,10 @@ package TD2;
 public class EX6 {  public static void main(String[] args) {
     Banque b=new Banque(1,5000,"AB12345");
     b.toString();
-    b.solde;
+
     b.diposer(500);
     b.toString();
-    b.solde;
+
 
 }
 }

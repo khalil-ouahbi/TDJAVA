@@ -1,6 +1,6 @@
 package TD3;
 
-public class Main {
+public class EX3 {
     public static void main(String[] args) {
         PointA p=new PointA(3,6);
         p.affcher();
