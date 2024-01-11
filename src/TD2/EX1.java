@@ -9,7 +9,7 @@ public class EX1 {
             pnt.afficher();
         }}
 
-    public class Point {
+public class Point {
         private  String nom;
         private double ab;
         public Point(String n,int a){
